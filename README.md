@@ -1,33 +1,90 @@
-CoreShield
-An advanced, cyber-security browser extension designed to protect users against real-time web threats, unverified downloads, and phishing domains with a sleek, interactive, neon-style UI.
-English Description | Русское описание
-English
-Key Features
-• Active Web Threat Blocker: Instantly detects high-risk keywords and intercepts known malicious links, blocking connections to fake landing pages.
-• Unverified Download Interceptor: Monitors background file requests and scans for high-risk formats (.torrent, .iso, .zip, .rar) to prompt user warnings before code execution.
-• Granular Security Profiles: Choose between low, medium, or strict configuration levels natively. High level restricts outdated non-HTTPS traffic entirely.
-• Sleek Interactive UX: Includes real-time audio feedback (SFX), animated neon states, and modern dark-mode aesthetics.
-• Bypass Control: Built-in persistence layer allows users to ignore specific warnings or reset hidden flags directly from the panel.
-Installation Guide (How to install)
-Follow these simple steps to install the extension manually on your machine:
-1. Download the Source: Click on the green Code button at the top right of this GitHub page and select Download ZIP. Extract the folder contents to any directory on your computer.
-2. Open Extensions Page: Open your browser (Google Chrome, Microsoft Edge, Brave, Opera, or Yandex Browser) and navigate to the extensions page by typing chrome://extensions/ in the address bar.
-3. Enable Developer Mode: Turn on the Developer mode toggle switch, typically found in the top-right corner of the interface.
-4. Load the Project: Click on the Load unpacked button located in the top-left section.
-5. Select Folder: In the file dialog, choose the main extracted project folder (the one containing manifest.json).
-Done! Pin the extension to your toolbar to get started.
-Русский
-Продвинутое браузерное расширение в сфере кибербезопасности, разработанное для защиты пользователей от сетевых угроз в реальном времени, непроверенных загрузок и фишинговых доменов с использованием минималистичного интерактивного интерфейса.
-Основные возможности
-• Блокировщик веб-угроз: Мгновенно распознает опасные паттерны в адресах страниц и перехватывает переходы на известные мошеннические домены.
-• Перехват подозрительных загрузок: Отслеживает фоновые запросы на скачивание файлов и реагирует на потенциально опасные форматы (.torrent, .iso, .zip, .rar), выводя предупреждение до запуска файлов на ПК.
-• Гибкие профили безопасности: Три уровня встроенных конфигураций. Максимальный уровень принудительно ограничивает трафик на устаревших протоколах без HTTPS-шифрования.
-• Интерактивный UX: Звуковое сопровождение действий (SFX), плавная неоновая анимация и современная темная тема интерфейса.
-• Управление исключениями: Возможность скрывать предупреждения с помощью галочки и сбрасывать скрытые окна обратно в исходное состояние одной кнопкой из панели управления.
-Инструкция по установке (Для пользователей)
-Чтобы вручную установить расширение в свой браузер, выполните следующие действия:
-1. Скачайте исходный код: Нажмите на зеленую кнопку Code в верхней правой части этой страницы GitHub и выберите Download ZIP. Распакуйте архив в любое удобное место на компьютере.
-2. Перейдите в меню расширений: Откройте ваш браузер (Google Chrome, Яндекс.Браузер, Edge, Opera или Brave) и введите в адресную строку: chrome://extensions/.
-3. Включите Режим разработчика: Активируйте тумблер Режим разработчика (Developer mode) в правом верхнем углу экрана.
-4. Загрузите файлы: Нажмите кнопку Загрузить распакованное расширение (Load unpacked) в левом violent углу интерфейса.
-5. Укажите папку: В открывшемся окне проводника выберите корневую папку с проектом (ту, внутри которой находится файл manifest.json).
+# 🛡️ CoreShield
+
+> An advanced cyber-security browser extension featuring real-time web threat protection, unverified download interception, and a sleek interactive neon user interface.
+
+---
+
+## 🌍 Language / Язык
+
+Click below to expand the documentation in your preferred language.
+Нажмите ниже, чтобы развернуть документацию на удобном для вас языке.
+
+<details>
+<summary>🇺🇸 English Documentation (Click to expand)</summary>
+<br>
+
+### 🚀 Key Features
+
+* 🌐 **Active Web Threat Blocker** — Instantly detects high-risk keywords in the URL and intercepts known malicious links to block connections to fake landing pages.
+* 📦 **Unverified Download Interceptor** — Monitors background file requests and scans for high-risk formats (`.torrent`, `.iso`, `.zip`, `.rar`) to prompt user warnings before code execution.
+* 🎚️ **Granular Security Profiles** — Choose between Low, Medium, or strict Maximum configurations. Maximum mode completely restricts legacy non-HTTPS connections.
+* ⚡ **Sleek Interactive UX** — Dynamic neon state changes based on your security level, built-in audio feedback (SFX), and modern dark-mode aesthetics.
+* 🔄 **Bypass & Persistence Control** — Easily ignore specific alerts via checkboxes or reset all hidden warnings instantly with a single button in the panel.
+
+---
+
+### 📦 Installation Guide
+
+Follow these simple steps to install **CoreShield** manually on your machine:
+
+1. **Download the Source**  
+   Click on the green **`Code`** button at the top right of this page and select **`Download ZIP`**. Extract the archive contents into any directory on your computer.
+
+2. **Open Extensions Page**  
+   Open your Chromium-based browser (Google Chrome, Microsoft Edge, Brave, Opera, or Yandex Browser) and navigate to:
+   ```text
+   chrome://extensions/
+   ```
+
+3. **Enable Developer Mode**  
+   Turn on the **`Developer mode`** toggle switch, typically located in the top-right corner of the interface.
+
+4. **Load the Extension**  
+   Click on the **`Load unpacked`** button in the top-left section.
+
+5. **Select the Directory**  
+   In the file browser dialog, select the main extracted folder (the one that contains your `manifest.json` file).
+
+*CoreShield is now active! Pin it to your toolbar for quick access.*
+
+</details>
+
+<details>
+<summary>🇷🇺 Документация на русском (Нажмите, чтобы развернуть)</summary>
+<br>
+
+### 🚀 Основные возможности
+
+* 🌐 **Блокировщик веб-угроз** — Автоматически распознает опасные ключевые паттерны в адресах страниц и мгновенно перехватывает переходы на мошеннические домены.
+* 📦 **Перехват подозрительных загрузок** — Отслеживает фоновые запросы на скачивание и реагирует на потенциально опасные форматы (`.torrent`, `.iso`, `.zip`, `.rar`), выводя защитное окно.
+* 🎚️ **Гибкие профили безопасности** — Три уровня конфигураций на выбор. Максимальный уровень принудительно ограничивает трафик на устаревших сайтах без HTTPS-шифрования.
+* ⚡ **Интерактивный UX** — Динамическая неоновая анимация с изменением цвета темы в зависимости от уровня угрозы и приятное звуковое сопровождение действий (SFX).
+* 🔄 **Управление исключениями** — Возможность временно скрыть предупреждения с помощью галочки и полностью сбросить скрытые окна обратно в исходное состояние одной кнопкой из панели.
+
+---
+
+### 📦 Инструкция по установке
+
+Выполните эти простые шаги, чтобы вручную установить **CoreShield** в свой браузер:
+
+1. **Скачайте исходный код**  
+   Нажмите на зеленую кнопку **`Code`** в верхней правой части этой страницы и выберите **`Download ZIP`**. Распакуйте полученный архив в любое удобное место на компьютере.
+
+2. **Перейдите в меню расширений**  
+   Откройте ваш браузер (Google Chrome, Яндекс.Браузер, Edge, Opera или Brave) и введите в адресную строку:
+   ```text
+   chrome://extensions/
+   ```
+
+3. **Включите Режим разработчика**  
+   Активируйте тумблер **`Режим разработчика`** (Developer mode) в правом верхнем углу экрана.
+
+4. **Загрузите файлы расширения**  
+   Нажмите кнопку **`Загрузить распакованное расширение`** (Load unpacked) в левом верхнем углу интерфейса.
+
+5. **Укажите рабочую папку**  
+   В открывшемся окне проводника выберите главную распакованную папку с проектом (ту, внутри которой находится файл `manifest.json`).
+
+*Готово! Закрепите иконку CoreShield на панели задач для быстрого доступа.*
+
+</details>
